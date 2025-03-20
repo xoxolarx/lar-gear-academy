@@ -31,4 +31,4 @@ jobs:
         run: |
           cargo fmt --all --check
           cargo clippy --release --all-targets -- -D warnings -A unused-imports
-          cargo t -r
+          cargo t
